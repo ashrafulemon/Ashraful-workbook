@@ -25,8 +25,9 @@ max1=b
 if(a<b){
   max2=b
 }
-max2=b
 
+max2=b
 sprintf("this is the maximum value %d",max2)
+sprintf("this is the maximum value %d ok ok",max2)
 print("this is the maximum value ",max2) #not ok
 cat("this is the maximum value ",max2)
