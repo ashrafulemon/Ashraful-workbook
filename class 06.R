@@ -1,10 +1,6 @@
 lst= list(name="asd",wife="mary",children=3,child.ages=c(4,7,9))
 lst
-lst2= list(name=c("asd","sasd"),wife=c("sds","mary"),children=c(3,4),child.ages=c(4,7,9,4,5,6,4))
-lst2
 
-lst3= list(name=c("asd","sasd"),wife=c("sds","mary"),children=c(3,4),child.ages=c(4,7,9),c(3,4,5,6))
-lst3
 lst4= list(name=c("asd","sasd"),wife=c("sds","mary"),children=c(3,4),child.ages=list(c(4,7,9),c(3,4,5,6)))
 lst4
 
@@ -21,9 +17,7 @@ lst4[[5]]= list(school=c("as","asd"),exp=c(12,34))
 lst4
 lst4[[1]]=c("aaa","sdssss")
 lst4
-lst4[[1]][1]=c("a","sd")      #not work?
-lst4[[1]][1]=list(c("a","sd"))  
-lst4
+
 
 
 
