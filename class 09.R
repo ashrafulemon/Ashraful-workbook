@@ -8,12 +8,7 @@ head(df)
 tail(df)
 
 
-if(4>2){
-   print(2323)
-}
-else{   #not work
-   print("wsewe")
-}
+
 
 print(3434)
 
@@ -28,6 +23,4 @@ if(a<b){
 
 max2=b
 sprintf("this is the maximum value %d",max2)
-sprintf("this is the maximum value %d ok ok",max2)
-print("this is the maximum value ",max2) #not ok
-cat("this is the maximum value ",max2)
+
