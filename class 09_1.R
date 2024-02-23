@@ -1,6 +1,6 @@
-x= rnorm(1)
-y= rnorm(1)
-z= rnorm(1)
+x= 12
+y= 44
+z= 23
 
 if(x>y & x>z){
                                                                    
