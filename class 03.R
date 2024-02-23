@@ -1,7 +1,4 @@
-z=c(1:3,NA)
-z
-ind= is.na(z)
-ind
+
 
 state=c("tas","sa")
 statef= factor(state)
