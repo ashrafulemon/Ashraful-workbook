@@ -8,8 +8,7 @@ data$a
 
 rm(a,b)
 
-a
-data$a
+
 
 attach(data)
 a
