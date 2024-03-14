@@ -13,14 +13,6 @@ par(mfrow= c(2,2))
 a=rchisq(20,10)
 plot(density(a))
 
-a=rchisq(20,100000)
-plot(density(a))
-
-a=rchisq(2000000,10)
-plot(density(a))
-
-a=rchisq(2000000,100000)
-plot(density(a))
 
 
 
@@ -37,45 +29,13 @@ for( i in 1:(n_coin-1)){
   s= outer(s,p,paste0)
   
 }
-s
-c(s)
+
 a=c(s)
 a
-
-s =c(1,2,3,4,5,6)
-p =c(1,2,3,4,5,6)
-
-n_dias=2
-for( i in 1:(n_dias-1)){
-  s= outer(s,p,paste0)
-  
-}
-s
-c(s)
-a=c(s)
-a
-
-
 
 ##
 
 bb= a[which(lengths(regmatches(a,gregexpr("h",a)))==2)]
-
-
-## my work
-a[1]
-a[[1]]
-sum1=0
-for( i in 1:(n_coin-1)){
-  for(j in 10){
-    a[i][j]
-  }
-}
-
-
-
-
-
 
 
 
